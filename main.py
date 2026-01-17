@@ -19,10 +19,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import joblib
-from sklearn.model_selection import train_test_split
 
 from src.data_loader import create_liquidity_dataset, get_default_dataset
-from src.liquidity_features import LiquidityFeatureEngineer, calculate_feature_importance
+from src.liquidity_features import LiquidityFeatureEngineer
 from src.ml_models import (
     train_all_models, create_model_comparison, get_best_model, cross_validate_model
 )

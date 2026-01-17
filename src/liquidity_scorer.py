@@ -7,7 +7,6 @@ import numpy as np
 import pandas as pd
 from typing import Optional, Dict, List
 from dataclasses import dataclass
-from scipy.stats import percentileofscore
 
 
 @dataclass

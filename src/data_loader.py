@@ -7,7 +7,6 @@ import numpy as np
 import pandas as pd
 from typing import List, Optional, Dict
 from datetime import datetime
-from scipy.stats import gaussian_kde
 import warnings
 
 warnings.filterwarnings('ignore')

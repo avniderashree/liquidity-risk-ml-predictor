@@ -6,7 +6,7 @@ Feature engineering for liquidity risk prediction.
 import numpy as np
 import pandas as pd
 from typing import List, Optional
-from sklearn.preprocessing import StandardScaler, RobustScaler
+from sklearn.preprocessing import RobustScaler
 from dataclasses import dataclass
 
 

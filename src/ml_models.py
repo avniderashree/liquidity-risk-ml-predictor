@@ -7,9 +7,9 @@ import numpy as np
 import pandas as pd
 from typing import Dict, Optional, List
 from dataclasses import dataclass
-from sklearn.model_selection import train_test_split, TimeSeriesSplit, cross_val_score
+from sklearn.model_selection import TimeSeriesSplit
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
-from sklearn.linear_model import Ridge, Lasso, ElasticNet
+from sklearn.linear_model import Ridge
 from sklearn.metrics import (
     mean_squared_error, mean_absolute_error, r2_score,
     mean_absolute_percentage_error
